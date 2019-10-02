@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF8F7B39-741F-3BE8-A9E1-16AF7921CCD5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>VkHLF</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VkHLF.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VkHLF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VkHLF.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VkHLF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VkHLF.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VkHLF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VkHLF.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VkHLF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;VKHLF_EXPORTS;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR="Debug";VkHLF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;VKHLF_EXPORTS;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR=\"Debug\";VkHLF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\VulkanSDK\1.1.108.0\Lib\vulkan-1.lib;..\3rdparty\glslang\glslang\Debug\glslangd.lib;..\3rdparty\glslang\OGLCompilersDLL\Debug\OGLCompilerd.lib;..\3rdparty\glslang\glslang\OSDependent\Windows\Debug\OSDependentd.lib;..\3rdparty\glslang\SPIRV\Debug\SPIRVd.lib;..\3rdparty\glslang\glslang\Debug\glslangd.lib;..\3rdparty\glslang\OGLCompilersDLL\Debug\OGLCompilerd.lib;..\3rdparty\glslang\glslang\OSDependent\Windows\Debug\OSDependentd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/lib/Debug/VkHLF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/bin/Debug/VkHLF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;VKHLF_EXPORTS;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR="Release";VkHLF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;VKHLF_EXPORTS;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR=\"Release\";VkHLF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\VulkanSDK\1.1.108.0\Lib\vulkan-1.lib;..\3rdparty\glslang\glslang\Release\glslang.lib;..\3rdparty\glslang\OGLCompilersDLL\Release\OGLCompiler.lib;..\3rdparty\glslang\glslang\OSDependent\Windows\Release\OSDependent.lib;..\3rdparty\glslang\SPIRV\Release\SPIRV.lib;..\3rdparty\glslang\glslang\Release\glslang.lib;..\3rdparty\glslang\OGLCompilersDLL\Release\OGLCompiler.lib;..\3rdparty\glslang\glslang\OSDependent\Windows\Release\OSDependent.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/lib/Release/VkHLF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/bin/Release/VkHLF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;VKHLF_EXPORTS;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR="MinSizeRel";VkHLF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;VKHLF_EXPORTS;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR=\"MinSizeRel\";VkHLF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\VulkanSDK\1.1.108.0\Lib\vulkan-1.lib;..\3rdparty\glslang\glslang\MinSizeRel\glslang.lib;..\3rdparty\glslang\OGLCompilersDLL\MinSizeRel\OGLCompiler.lib;..\3rdparty\glslang\glslang\OSDependent\Windows\MinSizeRel\OSDependent.lib;..\3rdparty\glslang\SPIRV\MinSizeRel\SPIRV.lib;..\3rdparty\glslang\glslang\MinSizeRel\glslang.lib;..\3rdparty\glslang\OGLCompilersDLL\MinSizeRel\OGLCompiler.lib;..\3rdparty\glslang\glslang\OSDependent\Windows\MinSizeRel\OSDependent.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/lib/MinSizeRel/VkHLF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/bin/MinSizeRel/VkHLF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;VKHLF_EXPORTS;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR="RelWithDebInfo";VkHLF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;VKHLF_EXPORTS;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR=\"RelWithDebInfo\";VkHLF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\VulkanSDK\1.1.108.0\Lib\vulkan-1.lib;..\3rdparty\glslang\glslang\RelWithDebInfo\glslang.lib;..\3rdparty\glslang\OGLCompilersDLL\RelWithDebInfo\OGLCompiler.lib;..\3rdparty\glslang\glslang\OSDependent\Windows\RelWithDebInfo\OSDependent.lib;..\3rdparty\glslang\SPIRV\RelWithDebInfo\SPIRV.lib;..\3rdparty\glslang\glslang\RelWithDebInfo\glslang.lib;..\3rdparty\glslang\OGLCompilersDLL\RelWithDebInfo\OGLCompiler.lib;..\3rdparty\glslang\glslang\OSDependent\Windows\RelWithDebInfo\OSDependent.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/lib/RelWithDebInfo/VkHLF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/bin/RelWithDebInfo/VkHLF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Repositories/QtSDL2VulkanTest/Dependencies/VkHLF/vkhlf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Repositories/QtSDL2VulkanTest -BC:/Repositories/QtSDL2VulkanTest/build --check-stamp-file C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/vkhlf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\vkhlf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Repositories/QtSDL2VulkanTest/Dependencies/VkHLF/vkhlf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Repositories/QtSDL2VulkanTest -BC:/Repositories/QtSDL2VulkanTest/build --check-stamp-file C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/vkhlf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\vkhlf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Repositories/QtSDL2VulkanTest/Dependencies/VkHLF/vkhlf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Repositories/QtSDL2VulkanTest -BC:/Repositories/QtSDL2VulkanTest/build --check-stamp-file C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/vkhlf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\vkhlf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Repositories/QtSDL2VulkanTest/Dependencies/VkHLF/vkhlf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Repositories/QtSDL2VulkanTest -BC:/Repositories/QtSDL2VulkanTest/build --check-stamp-file C:/Repositories/QtSDL2VulkanTest/build/Dependencies/VkHLF/vkhlf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\vkhlf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Buffer.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\BufferView.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\CommandBuffer.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\CommandPool.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DebugReportCallback.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DescriptorPool.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DescriptorSet.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DescriptorSetLayout.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Device.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DeviceMemory.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DeviceMemoryAllocator.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DeviceMemoryChunk.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Display.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DisplayMode.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Event.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Fence.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Framebuffer.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\FramebufferSwapchain.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Image.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\ImageView.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Instance.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Pipeline.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\PipelineCache.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\PipelineLayout.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\PhysicalDevice.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\QueryPool.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Queue.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\RenderPass.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\ResourceTracker.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\ResourceTrackerAll.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Sampler.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Semaphore.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\ShaderModule.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Swapchain.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Surface.cpp" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Allocator.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Buffer.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\BufferView.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\CommandBuffer.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\CommandPool.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Config.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DebugReportCallback.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DescriptorPool.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DescriptorSet.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DescriptorSetLayout.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Device.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DeviceMemory.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DeviceMemoryAllocator.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DeviceMemoryChunk.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Display.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DisplayMode.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Event.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Fence.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Framebuffer.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\FramebufferSwapchain.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Image.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\ImageView.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Instance.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Pipeline.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\PipelineCache.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\PipelineLayout.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\PhysicalDevice.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\QueryPool.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Queue.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Reference.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\RenderPass.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\ResourceTracker.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\ResourceTrackerAll.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Sampler.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Semaphore.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\ShaderModule.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Swapchain.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Surface.h" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\ZERO_CHECK.vcxproj">
+      <Project>{7847E3EF-7F88-3A9C-AF7D-633E56BB0860}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\3rdparty\glslang\OGLCompilersDLL\OGLCompiler.vcxproj">
+      <Project>{E3094984-AFED-307B-AF1B-85CBB396EA0A}</Project>
+      <Name>OGLCompiler</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\3rdparty\glslang\glslang\OSDependent\Windows\OSDependent.vcxproj">
+      <Project>{6306B709-07CC-3C22-9AB1-AE47960488CF}</Project>
+      <Name>OSDependent</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\3rdparty\glslang\SPIRV\SPIRV.vcxproj">
+      <Project>{26F77EBC-3E11-3F75-B2C2-0258D3FA1F0F}</Project>
+      <Name>SPIRV</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\3rdparty\glslang\glslang\glslang.vcxproj">
+      <Project>{5282CE0B-C285-342C-B1DE-8236E75DBBA2}</Project>
+      <Name>glslang</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

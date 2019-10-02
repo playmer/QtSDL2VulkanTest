@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.15/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/WriteBasicConfigVersionFile.cmake
+C:/Repositories/QtSDL2VulkanTest/Dependencies/SDL/CMakeLists.txt
+C:/Repositories/QtSDL2VulkanTest/Dependencies/SDL/cmake/macros.cmake
+C:/Repositories/QtSDL2VulkanTest/Dependencies/SDL/cmake/sdlchecks.cmake
+C:/Repositories/QtSDL2VulkanTest/Dependencies/SDL/cmake_uninstall.cmake.in
+C:/Repositories/QtSDL2VulkanTest/Dependencies/SDL/include/SDL_config.h.cmake

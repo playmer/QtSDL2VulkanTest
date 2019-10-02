@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\2114d316a6b160b84dfc745e77099f54\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{629C0BE4-BA06-3CBE-B996-EE75DB6ACFFD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

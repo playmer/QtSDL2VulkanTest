@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Buffer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\BufferView.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\CommandBuffer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\CommandPool.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DebugReportCallback.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DescriptorPool.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DescriptorSet.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DescriptorSetLayout.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Device.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DeviceMemory.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DeviceMemoryAllocator.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DeviceMemoryChunk.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Display.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\DisplayMode.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Event.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Fence.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Framebuffer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\FramebufferSwapchain.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Image.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\ImageView.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Instance.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Pipeline.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\PipelineCache.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\PipelineLayout.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\PhysicalDevice.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\QueryPool.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Queue.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\RenderPass.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\ResourceTracker.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\ResourceTrackerAll.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Sampler.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Semaphore.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\ShaderModule.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Swapchain.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\src\Surface.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Allocator.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Buffer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\BufferView.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\CommandBuffer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\CommandPool.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Config.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DebugReportCallback.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DescriptorPool.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DescriptorSet.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DescriptorSetLayout.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Device.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DeviceMemory.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DeviceMemoryAllocator.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DeviceMemoryChunk.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Display.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\DisplayMode.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Event.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Fence.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Framebuffer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\FramebufferSwapchain.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Image.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\ImageView.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Instance.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Pipeline.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\PipelineCache.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\PipelineLayout.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\PhysicalDevice.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\QueryPool.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Queue.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Reference.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\RenderPass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\ResourceTracker.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\ResourceTrackerAll.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Sampler.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Semaphore.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\ShaderModule.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Swapchain.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Surface.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\Types.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{AD938FFC-BBD5-30F2-BB0D-B40711064902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{D04E3AD5-B433-34DF-961F-139DAB8D9863}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

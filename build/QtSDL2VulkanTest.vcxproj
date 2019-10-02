@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A67946B6-5C12-3DCE-A518-A2AC34B1AF2E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>QtSDL2VulkanTest</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Repositories\QtSDL2VulkanTest\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QtSDL2VulkanTest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QtSDL2VulkanTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Repositories\QtSDL2VulkanTest\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QtSDL2VulkanTest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QtSDL2VulkanTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Repositories\QtSDL2VulkanTest\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QtSDL2VulkanTest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QtSDL2VulkanTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Repositories\QtSDL2VulkanTest\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QtSDL2VulkanTest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QtSDL2VulkanTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>YTEMain.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Widgetsd.lib;Dependencies\SDL\Debug\SDL2maind.lib;Dependencies\SDL\Debug\SDL2d.lib;Dependencies\VkHLF\lib\Debug\VkHLF.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Guid.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Cored.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;shell32.lib;dinput8.lib;C:\VulkanSDK\1.1.108.0\Lib\vulkan-1.lib;Dependencies\VkHLF\3rdparty\glslang\SPIRV\Debug\SPIRVd.lib;Dependencies\VkHLF\3rdparty\glslang\glslang\Debug\glslangd.lib;Dependencies\VkHLF\3rdparty\glslang\OGLCompilersDLL\Debug\OGLCompilerd.lib;Dependencies\VkHLF\3rdparty\glslang\glslang\OSDependent\Windows\Debug\OSDependentd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Repositories/QtSDL2VulkanTest/build/Debug/QtSDL2VulkanTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Repositories/QtSDL2VulkanTest/build/Debug/QtSDL2VulkanTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>YTEMain.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Widgets.lib;Dependencies\SDL\Release\SDL2main.lib;Dependencies\SDL\Release\SDL2.lib;Dependencies\VkHLF\lib\Release\VkHLF.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Gui.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Core.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;shell32.lib;dinput8.lib;C:\VulkanSDK\1.1.108.0\Lib\vulkan-1.lib;Dependencies\VkHLF\3rdparty\glslang\SPIRV\Release\SPIRV.lib;Dependencies\VkHLF\3rdparty\glslang\glslang\Release\glslang.lib;Dependencies\VkHLF\3rdparty\glslang\OGLCompilersDLL\Release\OGLCompiler.lib;Dependencies\VkHLF\3rdparty\glslang\glslang\OSDependent\Windows\Release\OSDependent.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Repositories/QtSDL2VulkanTest/build/Release/QtSDL2VulkanTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Repositories/QtSDL2VulkanTest/build/Release/QtSDL2VulkanTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>YTEMain.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Widgets.lib;Dependencies\SDL\MinSizeRel\SDL2main.lib;Dependencies\SDL\MinSizeRel\SDL2.lib;Dependencies\VkHLF\lib\MinSizeRel\VkHLF.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Gui.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Core.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;shell32.lib;dinput8.lib;C:\VulkanSDK\1.1.108.0\Lib\vulkan-1.lib;Dependencies\VkHLF\3rdparty\glslang\SPIRV\MinSizeRel\SPIRV.lib;Dependencies\VkHLF\3rdparty\glslang\glslang\MinSizeRel\glslang.lib;Dependencies\VkHLF\3rdparty\glslang\OGLCompilersDLL\MinSizeRel\OGLCompiler.lib;Dependencies\VkHLF\3rdparty\glslang\glslang\OSDependent\Windows\MinSizeRel\OSDependent.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Repositories/QtSDL2VulkanTest/build/MinSizeRel/QtSDL2VulkanTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Repositories/QtSDL2VulkanTest/build/MinSizeRel/QtSDL2VulkanTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;AMD_EXTENSIONS;NV_EXTENSIONS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repositories\QtSDL2VulkanTest\Dependencies\SDL\include;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\vkhlf\private;C:\VulkanSDK\1.1.108.0\include;C:\Repositories\QtSDL2VulkanTest\3rdparty;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\..;C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\SPIRV\..;C:\Qt\5.11.3\msvc2017_64\include;C:\Qt\5.11.3\msvc2017_64\include\QtWidgets;C:\Qt\5.11.3\msvc2017_64\include\QtGui;C:\Qt\5.11.3\msvc2017_64\include\QtANGLE;C:\Qt\5.11.3\msvc2017_64\include\QtCore;C:\Qt\5.11.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>YTEMain.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Widgets.lib;Dependencies\SDL\RelWithDebInfo\SDL2main.lib;Dependencies\SDL\RelWithDebInfo\SDL2.lib;Dependencies\VkHLF\lib\RelWithDebInfo\VkHLF.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Gui.lib;C:\Qt\5.11.3\msvc2017_64\lib\Qt5Core.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;shell32.lib;dinput8.lib;C:\VulkanSDK\1.1.108.0\Lib\vulkan-1.lib;Dependencies\VkHLF\3rdparty\glslang\SPIRV\RelWithDebInfo\SPIRV.lib;Dependencies\VkHLF\3rdparty\glslang\glslang\RelWithDebInfo\glslang.lib;Dependencies\VkHLF\3rdparty\glslang\OGLCompilersDLL\RelWithDebInfo\OGLCompiler.lib;Dependencies\VkHLF\3rdparty\glslang\glslang\OSDependent\Windows\RelWithDebInfo\OSDependent.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Repositories/QtSDL2VulkanTest/build/RelWithDebInfo/QtSDL2VulkanTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Repositories/QtSDL2VulkanTest/build/RelWithDebInfo/QtSDL2VulkanTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Repositories\QtSDL2VulkanTest\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Repositories/QtSDL2VulkanTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Repositories/QtSDL2VulkanTest -BC:/Repositories/QtSDL2VulkanTest/build --check-stamp-file C:/Repositories/QtSDL2VulkanTest/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QFlatpakThemePlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Repositories/QtSDL2VulkanTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Repositories/QtSDL2VulkanTest -BC:/Repositories/QtSDL2VulkanTest/build --check-stamp-file C:/Repositories/QtSDL2VulkanTest/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QFlatpakThemePlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Repositories/QtSDL2VulkanTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Repositories/QtSDL2VulkanTest -BC:/Repositories/QtSDL2VulkanTest/build --check-stamp-file C:/Repositories/QtSDL2VulkanTest/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QFlatpakThemePlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Repositories/QtSDL2VulkanTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Repositories/QtSDL2VulkanTest -BC:/Repositories/QtSDL2VulkanTest/build --check-stamp-file C:/Repositories/QtSDL2VulkanTest/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QFlatpakThemePlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.11.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeCCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\3.15.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Repositories\QtSDL2VulkanTest\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Source.cpp" />
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\VkHLFSampleWindow.cpp" />
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\VkHLFSampleWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\ZERO_CHECK.vcxproj">
+      <Project>{7847E3EF-7F88-3A9C-AF7D-633E56BB0860}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\3rdparty\glslang\OGLCompilersDLL\OGLCompiler.vcxproj">
+      <Project>{E3094984-AFED-307B-AF1B-85CBB396EA0A}</Project>
+      <Name>OGLCompiler</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\3rdparty\glslang\glslang\OSDependent\Windows\OSDependent.vcxproj">
+      <Project>{6306B709-07CC-3C22-9AB1-AE47960488CF}</Project>
+      <Name>OSDependent</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\SDL\SDL2.vcxproj">
+      <Project>{241A2F8E-4272-3071-A76E-EAB52F6A46DC}</Project>
+      <Name>SDL2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\SDL\SDL2main.vcxproj">
+      <Project>{4D7C2AB9-E263-30C1-8798-C943D7A8C6EB}</Project>
+      <Name>SDL2main</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\3rdparty\glslang\SPIRV\SPIRV.vcxproj">
+      <Project>{26F77EBC-3E11-3F75-B2C2-0258D3FA1F0F}</Project>
+      <Name>SPIRV</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\vkhlf\VkHLF.vcxproj">
+      <Project>{CF8F7B39-741F-3BE8-A9E1-16AF7921CCD5}</Project>
+      <Name>VkHLF</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repositories\QtSDL2VulkanTest\build\Dependencies\VkHLF\3rdparty\glslang\glslang\glslang.vcxproj">
+      <Project>{5282CE0B-C285-342C-B1DE-8236E75DBBA2}</Project>
+      <Name>glslang</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

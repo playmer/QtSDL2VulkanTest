@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.15/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/GNUInstallDirs.cmake
+C:/Repositories/QtSDL2VulkanTest/Dependencies/VkHLF/3rdparty/glslang/CMakeLists.txt
+C:/Repositories/QtSDL2VulkanTest/Dependencies/VkHLF/3rdparty/glslang/ChooseMSVCCRT.cmake

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\glslang_tab.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\attribute.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\Constant.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\iomapper.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\InfoSink.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\Initialize.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\IntermTraverse.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\Intermediate.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\ParseContextBase.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\ParseHelper.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\PoolAlloc.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\RemoveTree.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\Scan.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\ShaderLang.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\SymbolTable.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\Versions.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\intermOut.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\limits.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\linkValidate.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\parseConst.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\reflection.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\preprocessor\Pp.cpp">
+      <Filter>MachineIndependent\Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\preprocessor\PpAtom.cpp">
+      <Filter>MachineIndependent\Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\preprocessor\PpContext.cpp">
+      <Filter>MachineIndependent\Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\preprocessor\PpScanner.cpp">
+      <Filter>MachineIndependent\Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\preprocessor\PpTokens.cpp">
+      <Filter>MachineIndependent\Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\propagateNoContraction.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\GenericCodeGen\CodeGen.cpp">
+      <Filter>GenericCodeGen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\GenericCodeGen\Link.cpp">
+      <Filter>GenericCodeGen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Public\ShaderLang.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\arrays.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\BaseTypes.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\Common.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\ConstantUnion.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\InfoSink.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\InitializeGlobals.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\intermediate.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\PoolAlloc.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\ResourceLimits.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\revision.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\ShHandle.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\Include\Types.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\attribute.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\glslang_tab.cpp.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\gl_types.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\Initialize.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\iomapper.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\LiveTraverser.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\localintermediate.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\ParseHelper.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\reflection.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\RemoveTree.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\Scan.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\ScanContext.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\SymbolTable.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\Versions.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\parseVersions.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\propagateNoContraction.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\preprocessor\PpContext.h">
+      <Filter>MachineIndependent\Preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\preprocessor\PpTokens.h">
+      <Filter>MachineIndependent\Preprocessor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Repositories\QtSDL2VulkanTest\Dependencies\VkHLF\3rdparty\glslang\glslang\MachineIndependent\glslang.y">
+      <Filter>MachineIndependent</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GenericCodeGen">
+      <UniqueIdentifier>{48A1DDE0-C6F5-35BF-A7DE-6082244E8A37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{87211915-83A7-3FCD-AD6C-9316D9C9B2DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MachineIndependent">
+      <UniqueIdentifier>{4693BFCD-D482-312A-B437-B17C50424763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MachineIndependent\Preprocessor">
+      <UniqueIdentifier>{40F646E0-C6DB-38E4-AE99-F0AAF584E917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{1FC82E08-6DA5-373F-9DD6-3050A4649727}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
